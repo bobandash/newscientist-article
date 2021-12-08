@@ -6,66 +6,71 @@
     </head>
     <body>
         <header>
-            <p>Newsletters
-                <br />
-                Sign up to read our regular email
-                <br />
-                newsletters
-            </p>
-            <h1>
-                NewScientist
-            </h1>
-            <button>SUBSCRIBE AND SAVE 69%</button>
-            <nav>
-                <section>
-                    <a href = "">News</a>
-                    <a href = "">Podcasts</a>
-                    <a href = "">Video</a>
-                    <a href = "">Technology</a>
-                    <a href = "">Space</a>
-                    <a href = "">Physics</a>
-                    <a href = "">Health</a>
-                    <a href = "">More</a>
+            <div id = "header-container">
+                <section id = "company-information">
+                    <p>
+                        <a id = "newsletter-text" href = "">NEWSLETTERS</a>
+                        <br />
+                        <a id = "signup-text" href = "">Sign up to read our regular email 
+                                    <br />
+                                    newsletters
+                        </a>
+                    </p>
+                    <h1 id = "company-name">NewScientist</h1>
+                    <button id = "subscribe-button">SUBSCRIBE AND SAVE 69%</button>
                 </section>
-                <section>
-                    <a href = "">Shop</a>
-                    <a href = "">Courses</a>
-                    <a href = "">Events</a>
-                    <a href = "">Tours</a>
-                    <a href = "">Jobs</a>
-                </section>
-                <section>
-                    <a href = "">Sign In</a>
-                    <a href = "">Search</a>
-                </section>
-            </nav>
+                <nav>
+                    <section id = "nav-sections">
+                        <a href = "">News</a>
+                        <a href = "">Podcasts</a>
+                        <a href = "">Video</a>
+                        <a href = "">Technology</a>
+                        <a href = "">Space</a>
+                        <a href = "">Physics</a>
+                        <a href = "">Health</a>
+                        <a href = "">More</a>
+                    </section>
+                    <section id = "nav-services">
+                        <a href = "">Shop</a>
+                        <a href = "">Courses</a>
+                        <a href = "">Events</a>
+                        <a href = "">Tours</a>
+                        <a href = "">Jobs</a>
+                    </section>
+                    <section id = "nav-user-experience">
+                        <a href = ""><img src = "/images/signin.png">Sign In</a>
+                        <a href = ""><img src = "/images/search-icon.png">Search</a>
+                    </section>
+                </nav>
+            </div>
         </header>
+        <div id = "container-all-content">
         <article>
             <h1>Ancient lake in Mars's Gale crater may have actually been a small pond</h1>
             <section id = "social-network-icons">
-                <button>Facebook</button>
-                <button>Twitter</button>
-                <button>WhatsApp</button>
-                <button>LinkedIn</button>
-                <button>Reddit</button>
-                <button>Mail</button>
-                <button>Print</button>
+                <button><img src = "images/social network icons/facebook-icon.png" alt = "Facebook icon"></button>
+                <button><img src = "images/social network icons/twitter-icon.png" alt = "Twitter icon"></button>
+                <button><img src = "images/social network icons/whatsapp-icon.png" alt = "Whatsapp icon"></button>
+                <button><img src = "images/social network icons/linkedin-icon.png" alt = "LinkedIn icon"></button>
+                <button><img src = "images/social network icons/reddit-icon.png" alt = "Reddit icon"></button>
+                <button><img src = "images/social network icons/mail-icon.png" alt = "Mail icon"></button>
+                <button><img src = "images/social network icons/printer-icon.png" alt = "Print icon"></button>
             </section>
-            <h3>SPACE 6 August 2021</h3>
-            <h4>By <span><a href = "">Leah Crane</a></span></h4>
-            <figure>
-                <img src = "/images/06-aug_mars-sediments.jpg" alt = "rocks inside gale crater">
-                <figcaption>The rocks inside Gale crater hint there may not have been a large lake there after all</figcaption>
-                <figcaption>NASA/JPL-Caltech/University of Arizona</figcaption>
-            </figure>
+            <div id = "article-date-and-author">
+                <h3><a id = "space-text" href = "">SPACE</a> <span id = "date-text">6 August 2021</span></h3>
+                <h4><span id = "by-text">By</span> <a id = "author-name" href = "">Leah Crane</a></h4>
+            </div>
+            <img id = "rocks-image" src = "/images/06-aug_mars-sediments.jpg" alt = "rocks inside gale crater">
+            <div>The rocks inside Gale crater hint there may not have been a large lake there after all</div>
+            <div>NASA/JPL-Caltech/University of Arizona</div>
             <p>
                 A purported ancient lake on Mars may have been far smaller than researchers thought. NASA’s Curiosity rover has been 
-                exploring Gale crater for more than eight years, and while early observations suggested the entire crater may once have 
+                <a href = "">exploring Gale crater</a> for more than eight years, and while early observations suggested the entire crater may once have 
                 been filled with water, a new analysis implies that it just had a series of ponds instead.
                 <br />
                 <br />
                 Previous analyses of data from Curiosity have relied heavily on a measure called the chemical index of alteration to 
-                determine how rocks were weathered over time. Joseph Michalski at the University of Hong Kong and his colleagues have 
+                determine how rocks were weathered over time. <a href = "">Joseph Michalski</a> at the University of Hong Kong and his colleagues have 
                 suggested that because this measure was developed for use on Earth, it may not be valid in the extreme Martian climate.
                 <br />
                 <br />
@@ -74,7 +79,7 @@
                 in their past, but more are likely to have formed outside of the water.
             </p>
             <div>
-                <b>Read more:</b> Microbes burping methane on Mars may be right next to NASA rover
+                <b>Read more:</b> <a href = "">Microbes burping methane on Mars may be right next to NASA rover</a>
             </div>
             <p>
                 “Over hundreds of metres of strata, it seems that the only layers that are demonstrably lacustrine [formed in a lake] are 
@@ -82,7 +87,7 @@
                 something like 1 per cent.”
                 <br />
                 <br />
-                These rocks were mostly in the lowest few metres of sediments in the crater, suggesting the lake was not nearly as deep or 
+                These rocks were mostly in the lowest few metres of <a href = "">sediments in the crater</a>, suggesting the lake was not nearly as deep or 
                 extensive as we thought. “There was likely a small lake or more likely a series of small lakes in the floor of Gale crater, 
                 but these were shallow ponds,” says Michalski.
                 <br />
@@ -92,45 +97,124 @@
                 sediments were deposited by wind, not water, so this may solve that mismatch.
                 <br />
                 <br />                
-                <b>Journal reference:</b> Science Advances, DOI: 10.1126/sciadv.abh2687
+                <b>Journal reference:</b> Science Advances, <a href = "">DOI: 10.1126/sciadv.abh2687</a>
                 <br />
                 <br />               
-                Sign up to our free Launchpad newsletter for a voyage across the galaxy and beyond, every Friday                
+                <em>Sign up to our free <a href = "">Launchpad</a> newsletter for a voyage across the galaxy and beyond, every Friday</em>                
             </p>
-            <div>
+            <div id = "more-topics">
                 <b>More on these topics:</b>
                 <button>PLANETS</button>
                 <button>MARS</button>
             </div>
-            <section id = "social-network-icons">
-                <button>Facebook</button>
-                <button>Twitter</button>
-                <button>WhatsApp</button>
-                <button>LinkedIn</button>
-                <button>Reddit</button>
-                <button>Mail</button>
-                <button>Print</button>
-            </section>
-            <div>
-                <img src = "/images/pri212739994.jpg" alt = "New Scientist magazine cover">
-                <button>SUBSCRIBE</button>
-                <button>VIEW IN THE APP</button>
-                <button>BUY IN PRINT</button>
-            </div>
-            <section>
-                MORE FROM NEW SCIENTIST
-                <div>
-
+            <section id = "promotion-footer">
+                <section id = "social-network-icons">
+                    <button><img src = "images/social network icons/facebook-icon.png" alt = "Facebook icon"></button>
+                    <button><img src = "images/social network icons/twitter-icon.png" alt = "Twitter icon"></button>
+                    <button><img src = "images/social network icons/whatsapp-icon.png" alt = "Whatsapp icon"></button>
+                    <button><img src = "images/social network icons/linkedin-icon.png" alt = "LinkedIn icon"></button>
+                    <button><img src = "images/social network icons/reddit-icon.png" alt = "Reddit icon"></button>
+                    <button><img src = "images/social network icons/mail-icon.png" alt = "Mail icon"></button>
+                    <button><img src = "images/social network icons/printer-icon.png" alt = "Print icon"></button>
+                </section>
+                <div id = "new-scientist-promo">
+                    <div id = "new-scientist-mag-cover">
+                        <img src = "/images/pri212739994.jpg" alt = "New Scientist magazine cover">
+                    </div>
+                    <div id = "promo-buttons">
+                        <button id = "promo-subscribe-button">SUBSCRIBE</button>
+                        <button id = "promo-view-button">VIEW IN THE APP</button>
+                        <button id = "promo-buy-print-button">BUY IN PRINT</button>
+                    </div>
                 </div>
             </section>
         </article>
-        <footer>
-            Sign up to our newsletters
-            <br />
-            Enter your email address to get started <input type = "text" placeholder = "Your email"> <button>SIGN UP</button>
-            <section>
-                
+
+
+        <section id = "articles-side-nav">
+            <button class = "selected-section-side-nav">TRENDING</button>
+            <button>LATEST</button>
+            <button>VIDEO</button>
+            <button>FREE</button>
+            <section id = "article-hyperlinks">
+                <div>
+                    <a href = "">Boy finds 'extinct' frog in Ecuador and helps revive species</a>
+                    <div>1</div>
+                </div>
+                <div>
+                    <a href = "">How <em>Minecraft</em> is helping children with autism make new friends</a>
+                    <div>2</div>
+                </div>
+                <div>
+                    <a href = "">How Finland plans to create a circular bioeconomy that runs on wood</a>
+                    <div>3</div>
+                </div>
+                <div>
+                    <a href = "">Ancient Egyptian elites used a thick beer porridge in their ceremonies</a>
+                    <div>4</div>
+                </div>
+                <div>
+                    <a href = "">Fake covid-19 vaccine certificates are being sold on the dark web</a>
+                    <div>5</div>
+                </div>
             </section>
+        </section>
+        </div>
+
+
+        <footer>
+            <div id = "footer-container">
+                <h1>Sign up to our newsletters</h1>
+                <p id = "enter-email-p">Enter your email address to get started <input id = "email-input" type = "text" placeholder = "Your email"> <input id = "email-submit-button" type = "submit" value = "SIGN UP"></p>
+                <div id = "footer-hyperlinks-first-line">
+                    <a href = "">Contact us</a> | 
+                    <a href = "">Help</a> | 
+                    <a href = "">About us</a> | 
+                    <a href = "">Privacy policy</a> | 
+                    <a href = "">Cookie policy</a> | 
+                    <a href = "">Terms & Conditions</a>      
+                </div>
+                <div>
+                    <a href = "">Advertise</a> | 
+                    <a href = "">Write for us</a> | 
+                    <a href = "">Events</a> | 
+                    <a href = "">Science Jobs</a> | 
+                    <a href = "">Syndication</a> | 
+                    <a href = "">RSS feeds</a>
+                </div>
+                <div>
+                    <a href = "">Gift subscriptions</a> | 
+                    <a href = "">Student subscriptions</a> | 
+                    <a href = "">Educational subscriptions</a> | 
+                    <a href = "">Corporate subscriptions</a>
+                </div>
+                <div>
+                <button id = "cookie-setting-button">Cookie Settings</button>
+                </div>
+                <div id = "last-promotion">
+                    <div id = "app-promotion">
+                        <div class = "promo-text">GET THE APP</div>
+                        <div>
+                        <a href = ""><img class = "download-mobile-app" src = "images/download-icons/app-store.png"></a>
+                        <a href = ""><img class = "download-mobile-app" src = "images/download-icons/google-play.png"></a>
+                        </div>
+                    </div>
+                    <div id = "social-promotion">
+                        <div class = "promo-text">FOLLOW US</div>
+                        <div>
+                        <a href = ""><img class = "download-mobile-app" src = "images/social network icons/facebook-icon.png"></a>
+                        <a href = ""><img class = "download-mobile-app" src = "images/social network icons/twitter-icon.png"></a>
+                        <a href = ""><img class = "download-mobile-app" src = "images/social network icons/linkedin-icon.png"></a>
+                        <a href = ""><img class = "download-mobile-app" src = "images/social network icons/pinterest-icon.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div id = "footer-nav">
+                    <div id = "copyright-info">© Copyright New Scientist Ltd.</div>
+                    <div id = "back-to-top">Back to Top</div>
+                    <a href = ""><img id = "up-arrow" src = "images/up-arrow.png" alt = "up-arrow"></a>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
